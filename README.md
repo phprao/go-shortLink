@@ -1,7 +1,13 @@
 # go-shortLink
 
 #### 介绍
-go开发的短地址服务
+##### go开发的短地址服务，包含3个API接口
+1. 转换成短地址 POST /api/shorten
+2. 短地址信息 GET /api/info?shortLink=xxx
+3. 根据短地址查找实际地址 GET /xxx
+##### 基于redis
+##### 启动服务：go run main.go
+##### 测试：go run test.go
 
 #### 软件架构
 软件架构说明
